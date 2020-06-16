@@ -32,6 +32,9 @@ To change the NICE DCV server's authentication method, you must configure the `a
 
 1. Choose **OK** and close the Windows Registry Editor\.
 
+1. Restart the NICE DCV server under the Windows services to apply change. Do not stop the server as it might lock you out\.
+
+
 ### Windows Credentials Provider<a name="manage-wcp"></a>
 
 Windows Credentials Provider enables users to bypass the Windows login if they successfully authenticate against the DCV server\.
@@ -54,6 +57,8 @@ Windows Credentials Provider is enabled by default when you install the NICE DCV
 
 1. Close the Windows Registry Editor\.
 
+1. Restart the NICE DCV server under the Windows services to apply change. Do not stop the server as it might lock you out\.
+
 **To re\-enable Windows Credentials Provider**
 
 1. Open the Windows Registry Editor\.
@@ -63,6 +68,8 @@ Windows Credentials Provider is enabled by default when you install the NICE DCV
 1. Open the **Disabled** value\. For **Value data**, enter `0` and choose **OK**\.
 
 1. Close the Windows Registry Editor\.
+
+1. Restart the NICE DCV server under the Windows services to apply change. Do not stop the server as it might lock you out\.
 
 ## Configuring Authentication on Linux<a name="set-authentication-linux"></a>
 
